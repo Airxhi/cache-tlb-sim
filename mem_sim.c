@@ -165,7 +165,6 @@ uint32_t get_tag(uint32_t address, uint32_t number_of_cache_blocks) {
     // -1 for valid bit
     int tag_size = 32 - bits_for_index - 1;
     int tag = address >> (32 - tag_size);
-    printf("%d", bits_for_index-1);
     return tag;
 }   
 
