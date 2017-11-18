@@ -269,6 +269,7 @@ int main(int argc, char** argv) {
         /* Feed the address to your TLB and/or Cache simulator and collect statistics. */
         int x = (get_tag(access.address, number_of_cache_blocks));
         printf("%d", x);
+        printf("\n");
 
     }
 
